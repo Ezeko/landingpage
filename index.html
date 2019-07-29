@@ -15,15 +15,27 @@
         <div class="container">
             <div id="header">
                     <img src="31517324.jpg" id="header-img">
-                <nav id="navbar">
-                    <a href="#" class="active">Home</a>
-                    <a href="#contact"> Contact</a>
-                    <a href="#about"> About </a>
+                <nav id="nav-bar">
+                    <a href="#" class="active nav-link">Home</a>
+                    <a href="#contact" class="nav-link"> Contact</a>
+                    <a href="#about" class="nav-link"> About </a>
 
                 </nav>
             </nav></div>
             <div id="main">
-                main
+                <div id="about">
+                    <h1 id="about-h1">ABOUT</h1>
+                </div>
+                <div id="contact">
+                    <h1 id="contact-h1">OUR CONTACT</h1>
+
+                    <p>OR Fill the form below</p>
+                    <form type="POST" id="form" action="https://www.freecodecamp.com/email-submit">
+                        <label for="email">EMAIL: </label>
+                        <input type="email" id="email" placeholder=" Kindly enter your email address" required>
+                        <button type="submit" value="SUBMIT">Submit Your Email</button>
+                    </form>
+                </div>
             </div>
             <div id="footer">
                     &copy Ezekielcodes 2019.
