@@ -68,6 +68,9 @@ a.active{
 #about{
     padding-top: 45px;
     width:100%;
-    font-size:40px;
+    font-size:30px;
+    text-align: center;
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
