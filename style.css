@@ -12,7 +12,7 @@
     grid-area: header;
     background-color: rgb(112, 107, 107);
     width: 100%;
-    transform: absolute;
+    transform: relative;
     position: fixed;
 }
 #header-img{
