@@ -65,12 +65,21 @@ a.active{
     grid-area: footer;
 
 }
-#about{
+#about-h1{
     padding-top: 45px;
     width:100%;
     font-size:30px;
     text-align: center;
-    color: teal;
+    color: navy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#contact-h1{
+    padding-top: 45px;
+    width:100%;
+    font-size:30px;
+    text-align: center;
+    color: tomato;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
